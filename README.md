@@ -14,20 +14,13 @@
 
 **Introducción**:
 
-En esta quinta entrega hemos tenido la oportunidad de afrontar un proyecto abierto, centrado en la iluminación de una escena o composición, y al mismo tiempo el poder brindar al usuario unos controles de cámara para visualizar dicha escena.
 En esta octava práctica hemos centrado nuestros esfuerzos en el aprendizaje y conocimiento de una nueva plataforma y código para programar llamado "P5.js". Si bien es verdad que presenta muchas similitudes con lo ya visto en processing, hemos tenido la oportunidad de profundizar brevemente en esta nueva variante.
 
 **La aplicación**:
 
 Nuestro pequeño proyecto de muestra se fundamenta en un barrido de pantalla que cambia el color del fondo.
-
-    -Una silla
-  
-    -Un escritorio
-  
-    -Una lámpara de escritorio
-  
-Dichos elementos están colocados de una forma orgánica simulando una habitación. Esta habitación se situa como eje central de nuestra cámara, esto implica que somos capaces de girar y "orbitar" al rededor de esta, pero nunca podemos dejarla de ver. Así mismo tenemos un foco de iluminación en nuestro ratón, es decir, allí donde esté apuntando nuestro puntero generará un foco de luz. Por último, tenemos una iluminación ambiental para darle profundidad a la escena.
+Este barrido de basa en una recta que actualiza su posición en cada iteración del draw, así mismo para el relleno del fondo tenemos un cuadrado, el cual, uno de sus lados va en función a la posición de la recta previamente mencionada. Con esto conseguimos que se actualice al mismo tiempo.
+Por último, tenemos tres variables asignadas al RGB, las cuales se actualizan de manera aleatoria cada vez que se completa un barrido de la pantalla.
 
 ![N|Solid](https://i.gyazo.com/99472f119f3cb1f28528eacc4fabd626.png)
 
