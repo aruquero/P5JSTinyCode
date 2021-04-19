@@ -34,11 +34,11 @@ Se ha decidido implementar tres teclas de manejo al usuario para fomentar la int
 
 Nuestra aplicación permite intercambiar mediante tres teclas el modo de barrido:
 
-  -Flecha superior: Barrido de la pantalla hacia la dirección que apunta la flecha(arriba).
+    -Flecha superior: Barrido de la pantalla hacia la dirección que apunta la flecha(arriba).
   
-  -Flecha inferior: Barrido de la pantalla hacia la dirección que apunta la flecha(abajo).
+    -Flecha inferior: Barrido de la pantalla hacia la dirección que apunta la flecha(abajo).
   
-  -BackSpace(Tecla de borrar): Detiene el barrido de la pantalla, para volver a iniciarlo hay que pulsar alguna de las dos teclas anteriores.
+    -BackSpace(Tecla de borrar): Detiene el barrido de la pantalla, para volver a iniciarlo hay que pulsar alguna de las dos teclas anteriores.
 
 
 **Gif sobre el funcionamiento**
