@@ -27,7 +27,8 @@ Por último, tenemos tres variables asignadas al RGB, las cuales se actualizan d
 **Decisiones de diseño**:
 
 Se ha decidido jugar con el barrido del fondo, las variables random para los colores RGB y las figuras primitivas que presenta el lenguaje para intentar simbolizar un barrido de colores a la vez que avanza la línea del fondo.
-Se ha decidido implementar tres teclas de manejo al usuario para fomentar la interacción y dar una capa más enriquecedora a la aplicación, permitiendo así un flujo más interactivo con el usuario.
+
+Al mismo tiempo, se ha decidido implementar tres teclas de manejo al usuario para fomentar la interacción y dar una capa más enriquecedora a la aplicación, permitiendo así un flujo más interactivo con el usuario.
 
 
 **Tutorial**
