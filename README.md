@@ -27,11 +27,16 @@ Por último, tenemos tres variables asignadas al RGB, las cuales se actualizan d
 **Decisiones de diseño**:
 
 Se ha decidido jugar con el barrido del fondo, las variables random para los colores RGB y las figuras primitivas que presenta el lenguaje para intentar simbolizar un barrido de colores a la vez que avanza la línea del fondo.
+Se ha decidido implementar tres teclas de manejo al usuario para fomentar la interacción y dar una capa más enriquecedora a la aplicación, permitiendo así un flujo más interactivo con el usuario.
 
 
 **Tutorial**
 
-En esta aplicación no existe tutorial ya que no hay interacción por parte del usuario.
+Nuestra aplicación permite intercambiar mediante tres teclas el modo de barrido:
+
+  -Flecha superior: Barrido de la pantalla hacia la dirección que apunta la flecha(arriba).
+  -Flecha inferior: Barrido de la pantalla hacia la dirección que apunta la flecha(abajo).
+  -BackSpace(Tecla de borrar): Detiene el barrido de la pantalla, para volver a iniciarlo hay que pulsar alguna de las dos teclas anteriores.
 
 
 **Gif sobre el funcionamiento**
